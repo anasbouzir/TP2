@@ -2,7 +2,7 @@ pipeline {
 agent any
 options { timestamps() }
 environment {
-IMAGE = 'wiemk/monapp'
+IMAGE = 'siranas/monapp'
 TAG = "build-${env.BUILD_NUMBER}"
 }
 stages {
